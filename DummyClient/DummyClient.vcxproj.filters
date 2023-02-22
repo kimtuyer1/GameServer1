@@ -10,6 +10,9 @@
     <Filter Include="Protocol">
       <UniqueIdentifier>{15ffd3da-e358-4e2b-8754-e2e4a6f52136}</UniqueIdentifier>
     </Filter>
+    <Filter Include="강의">
+      <UniqueIdentifier>{36a29bff-969d-48bf-a562-fbe0821db30d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DummyClient.cpp">
@@ -29,6 +32,12 @@
     </ClCompile>
     <ClCompile Include="Enum.pb.cc">
       <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="메모리모델.cpp">
+      <Filter>강의</Filter>
+    </ClCompile>
+    <ClCompile Include="메모리모델2.cpp">
+      <Filter>강의</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
