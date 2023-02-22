@@ -13,6 +13,21 @@
     <Filter Include="GameContents">
       <UniqueIdentifier>{87ecb0c8-a463-4f2f-8da3-49a7bcdfb77a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="강의">
+      <UniqueIdentifier>{9a5ed7dc-5de3-4765-9b97-470631754cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="강의\Lock-Based Stack / Queue">
+      <UniqueIdentifier>{e11d17bc-9628-4aac-a811-83b239c82c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="강의\Lock-Free Stack">
+      <UniqueIdentifier>{5b14b421-4011-4b56-9c6b-900d5e7f0e68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="강의\Lock-Free Stack2">
+      <UniqueIdentifier>{ce6edd63-1fad-41ce-8564-b76c11f56348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="강의\Lock-Free Stack3">
+      <UniqueIdentifier>{948c72a1-4a9f-407f-802d-1db114ea6c6c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameServer.cpp">
@@ -45,6 +60,42 @@
     <ClCompile Include="Room.cpp">
       <Filter>GameContents</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Lock-Based Stack-Queue_소스코드\GameServer\ConcurrentQueue.cpp">
+      <Filter>강의\Lock-Based Stack / Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lock-Based Stack-Queue_소스코드\GameServer\ConcurrentStack.cpp">
+      <Filter>강의\Lock-Based Stack / Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lock-Based Stack-Queue_소스코드\GameServer\GameServer.cpp">
+      <Filter>강의\Lock-Based Stack / Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lock-Free Stack #1_소스코드\GameServer\ConcurrentQueue.cpp">
+      <Filter>강의\Lock-Free Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lock-Free Stack #1_소스코드\GameServer\ConcurrentStack.cpp">
+      <Filter>강의\Lock-Free Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lock-Free Stack #1_소스코드\GameServer\GameServer.cpp">
+      <Filter>강의\Lock-Free Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lock-Free Stack #2_소스코드\GameServer\ConcurrentQueue.cpp">
+      <Filter>강의\Lock-Free Stack2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lock-Free Stack #2_소스코드\GameServer\ConcurrentStack.cpp">
+      <Filter>강의\Lock-Free Stack2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lock-Free Stack #2_소스코드\GameServer\GameServer.cpp">
+      <Filter>강의\Lock-Free Stack2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lock-Free Stack #3_소스코드\GameServer\ConcurrentQueue.cpp">
+      <Filter>강의\Lock-Free Stack3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lock-Free Stack #3_소스코드\GameServer\ConcurrentStack.cpp">
+      <Filter>강의\Lock-Free Stack3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lock-Free Stack #3_소스코드\GameServer\GameServer.cpp">
+      <Filter>강의\Lock-Free Stack3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -73,6 +124,30 @@
     </ClInclude>
     <ClInclude Include="Player.h">
       <Filter>GameContents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Lock-Based Stack-Queue_소스코드\GameServer\ConcurrentQueue.h">
+      <Filter>강의\Lock-Based Stack / Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Lock-Based Stack-Queue_소스코드\GameServer\ConcurrentStack.h">
+      <Filter>강의\Lock-Based Stack / Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Lock-Free Stack #1_소스코드\GameServer\ConcurrentQueue.h">
+      <Filter>강의\Lock-Free Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Lock-Free Stack #1_소스코드\GameServer\ConcurrentStack.h">
+      <Filter>강의\Lock-Free Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Lock-Free Stack #2_소스코드\GameServer\ConcurrentQueue.h">
+      <Filter>강의\Lock-Free Stack2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Lock-Free Stack #2_소스코드\GameServer\ConcurrentStack.h">
+      <Filter>강의\Lock-Free Stack2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Lock-Free Stack #3_소스코드\GameServer\ConcurrentQueue.h">
+      <Filter>강의\Lock-Free Stack3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Lock-Free Stack #3_소스코드\GameServer\ConcurrentStack.h">
+      <Filter>강의\Lock-Free Stack3</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -39,6 +39,9 @@
     <ClCompile Include="메모리모델2.cpp">
       <Filter>강의</Filter>
     </ClCompile>
+    <ClCompile Include="ThreadLocalStorage.cpp">
+      <Filter>강의</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
