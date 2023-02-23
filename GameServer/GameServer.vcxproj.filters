@@ -28,6 +28,9 @@
     <Filter Include="강의\Lock-Free Stack3">
       <UniqueIdentifier>{948c72a1-4a9f-407f-802d-1db114ea6c6c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="강의\ThreadManager">
+      <UniqueIdentifier>{4296505d-9bc6-4070-89b7-172db4e4852c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameServer.cpp">
@@ -95,6 +98,12 @@
     </ClCompile>
     <ClCompile Include="..\..\Lock-Free Stack #3_소스코드\GameServer\GameServer.cpp">
       <Filter>강의\Lock-Free Stack3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThreadManager_소스코드\GameServer\GameServer.cpp">
+      <Filter>강의\ThreadManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TM-GameServer.cpp">
+      <Filter>강의\ThreadManager</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

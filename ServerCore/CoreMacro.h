@@ -16,7 +16,7 @@
 /*---------------
 	  Crash
 ---------------*/
-
+//__analysis_assume-> nullptr이 아니라고 컴파일러에게 가정해줌
 #define CRASH(cause)						\
 {											\
 	uint32* crash = nullptr;				\

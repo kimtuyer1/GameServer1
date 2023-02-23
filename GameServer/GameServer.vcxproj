@@ -185,6 +185,7 @@
     <ClCompile Include="..\..\Lock-Free Stack #3_소스코드\GameServer\ConcurrentQueue.cpp" />
     <ClCompile Include="..\..\Lock-Free Stack #3_소스코드\GameServer\ConcurrentStack.cpp" />
     <ClCompile Include="..\..\Lock-Free Stack #3_소스코드\GameServer\GameServer.cpp" />
+    <ClCompile Include="..\..\ThreadManager_소스코드\GameServer\GameServer.cpp" />
     <ClCompile Include="Enum.pb.cc">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
@@ -215,6 +216,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="TM-GameServer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Lock-Based Stack-Queue_소스코드\GameServer\ConcurrentQueue.h" />
