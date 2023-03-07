@@ -2,7 +2,7 @@
 #include "Types.h"
 
 /*----------------
-    RW SpinLock
+    RW SpinLock  -MMO는 일반적으로 spinlock으로 작업, 서로 잠시만 자원 점유하는 경우 많아
 -----------------*/
 
 /*--------------------------------------------
@@ -17,9 +17,9 @@ class Lock
     {
         ACQUIRE_TIMEOUT_TICK = 10000,
         MAX_SPIN_COUNT = 5000,
-        WRITE_THREAD_MASK = 0xFFFF'0000,
-        READ_COUNT_MASK = 0x0000'FFFF,
-        EMPTY_FLAG = 0x0000'0000
+        WRITE_THREAD_MASK = 0xFFFF'0000,    //상위비트 
+        READ_COUNT_MASK = 0x0000'FFFF,      //하위비트 
+        EMPTY_FLAG = 0x0000'0000            //아무도 점유하지않은 기본값
     };
 
 public:

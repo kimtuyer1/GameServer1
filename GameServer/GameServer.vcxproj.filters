@@ -31,6 +31,9 @@
     <Filter Include="강의\ThreadManager">
       <UniqueIdentifier>{4296505d-9bc6-4070-89b7-172db4e4852c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="강의\Reader-Writer_Lock">
+      <UniqueIdentifier>{de19c113-d2fc-4b85-9232-ff7cbe2f933e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameServer.cpp">
@@ -104,6 +107,9 @@
     </ClCompile>
     <ClCompile Include="TM-GameServer.cpp">
       <Filter>강의\ThreadManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Reader-Writer Lock_소스코드\GameServer\GameServer.cpp">
+      <Filter>강의\Reader-Writer_Lock</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
