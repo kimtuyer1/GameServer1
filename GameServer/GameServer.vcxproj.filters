@@ -34,6 +34,9 @@
     <Filter Include="강의\Reader-Writer_Lock">
       <UniqueIdentifier>{de19c113-d2fc-4b85-9232-ff7cbe2f933e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="강의\0308 Dead-Lock">
+      <UniqueIdentifier>{183dd606-fa29-461c-a225-bd273412ef6d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameServer.cpp">
@@ -111,6 +114,15 @@
     <ClCompile Include="..\..\Reader-Writer Lock_소스코드\GameServer\GameServer.cpp">
       <Filter>강의\Reader-Writer_Lock</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\DeadLock 탐지_소스코드\GameServer\GameServer.cpp">
+      <Filter>강의\0308 Dead-Lock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DeadLock 탐지_소스코드\GameServer\AccountManager.cpp">
+      <Filter>강의\0308 Dead-Lock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DeadLock 탐지_소스코드\GameServer\PlayerManager.cpp">
+      <Filter>강의\0308 Dead-Lock</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -163,6 +175,12 @@
     </ClInclude>
     <ClInclude Include="..\..\Lock-Free Stack #3_소스코드\GameServer\ConcurrentStack.h">
       <Filter>강의\Lock-Free Stack3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DeadLock 탐지_소스코드\GameServer\AccountManager.h">
+      <Filter>강의\0308 Dead-Lock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DeadLock 탐지_소스코드\GameServer\PlayerManager.h">
+      <Filter>강의\0308 Dead-Lock</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
